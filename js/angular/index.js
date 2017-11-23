@@ -10,7 +10,7 @@ app.controller('indexController', ['$scope', 'toastrNotification', '$timeout', f
                                    
     $scope.init = function()
     {
-        /*var obj = {
+        var obj = {
             index : 0,
             title : "HTML",
             text : "HTML stands for Hyper-Text Markup Language and is the standard markup language for web pages and web applications. Initially released in 1993, HTML was developed at CERN by Tim Berners-Lee and colleagues. The first publically available description of HTML was released in December 1991. Currently, HTML5 is the latest standard issued by the W3C consortium, and it is this specification of HTML we are learning today.",
@@ -32,7 +32,7 @@ app.controller('indexController', ['$scope', 'toastrNotification', '$timeout', f
             text : "JS, or JavaScript, is a client-side scripting language. It is an interpreted language, which means errors are not going to be found in your syntax until run-time. It is dynamic, weakly typed, and is one of the three core technologies in WWW content production alongside HTML and CSS. First released in 1995, the last stable version was available in June 2017. Some server-side JS frameworks exist, such as NodeJS, but we will not be worrying with these tonight.",
         };
         
-        $scope.availableTechnologies.push(obj3);*/
+        $scope.availableTechnologies.push(obj3);
         
         var obj4 = {
             index : 3,
