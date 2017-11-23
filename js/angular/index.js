@@ -10,7 +10,7 @@ app.controller('indexController', ['$scope', 'toastrNotification', '$timeout', f
                                    
     $scope.init = function()
     {
-        /*var obj = {
+        var obj = {
             index : 0,
             title : "HTML",
             text : "HTML stands for Hyper-Text Markup Language and is the standard markup language for web pages and web applications. Initially released in 1993, HTML was developed at CERN by Tim Berners-Lee and colleagues. The first publically available description of HTML was released in December 1991. Currently, HTML5 is the latest standard issued by the W3C consortium, and it is this specification of HTML we are learning today.",
@@ -21,7 +21,7 @@ app.controller('indexController', ['$scope', 'toastrNotification', '$timeout', f
         var obj2 = {
             index : 1,
             title : "CSS",
-            text : "yay CSS stands for Cascading Style Sheets and is commonly used as a means of styling our HTML documents. CSS can be used to make a website look very user-friendly, or very ugly. CSS was initially released in 1996, and has three ways of being applied to HTML documents. The first is inline-styling, where the element itself is given a style tag and some style attributes. In the early days, this was how websites were styled, but this quickly becomes cumbersome when you wish to modify the style of elements across several pages. The second is with a reference style, located in the head of the document. This can style the entire document in which its called, but does not style elements on other pages. The third way is the have an externally linked stylesheet (external to the page being rendered). This allows all the pages to utilise one style element, so when an update is needed we can change it once without changing multiple pages and risk missing one. We are using an external stylesheet in todays demonstration.",
+            text : "nay CSS stands for Cascading Style Sheets and is commonly used as a means of styling our HTML documents. CSS can be used to make a website look very user-friendly, or very ugly. CSS was initially released in 1996, and has three ways of being applied to HTML documents. The first is inline-styling, where the element itself is given a style tag and some style attributes. In the early days, this was how websites were styled, but this quickly becomes cumbersome when you wish to modify the style of elements across several pages. The second is with a reference style, located in the head of the document. This can style the entire document in which its called, but does not style elements on other pages. The third way is the have an externally linked stylesheet (external to the page being rendered). This allows all the pages to utilise one style element, so when an update is needed we can change it once without changing multiple pages and risk missing one. We are using an external stylesheet in todays demonstration.",
         };
         
         $scope.availableTechnologies.push(obj2);
@@ -32,7 +32,7 @@ app.controller('indexController', ['$scope', 'toastrNotification', '$timeout', f
             text : "JS, or JavaScript, is a client-side scripting language. It is an interpreted language, which means errors are not going to be found in your syntax until run-time. It is dynamic, weakly typed, and is one of the three core technologies in WWW content production alongside HTML and CSS. First released in 1995, the last stable version was available in June 2017. Some server-side JS frameworks exist, such as NodeJS, but we will not be worrying with these tonight.",
         };
         
-        $scope.availableTechnologies.push(obj3);*/
+        $scope.availableTechnologies.push(obj3);
         
         var obj4 = {
             index : 3,
